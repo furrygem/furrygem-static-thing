@@ -66,23 +66,21 @@ html, body {
 	color: white;
 	border-left: solid white 1px;
 	border-right: solid white 1px;
-	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-top: 1rem;
 	margin-left: auto;
 	margin-right: auto;
+	padding: .5rem;
 }
 @media (orientation: landscape){
 	.article {
-		padding: .5rem;
-		max-width: 40rem;
+		width: 40rem;
 	}
 }
 
 @media (orientation: portrait) {
 	.article {
-		font-size: 1.5em;
-		padding: .5rem;
-		max-width: 55rem;
+		font-size: 1.7rem;
+		width: 95vw;
 	}
 }
 
@@ -97,30 +95,15 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-@media (orientation: portrait) {
-	.footer {
-		display: flex;
-		flex-direction: row;
-		margin-top: 1vh;
-		padding: 2em 0;
-		font-size: .9rem;
-		justify-content: center;
-		align-items: center;
-		width: 100vw;
-	}
-}
 
-@media (orientation: landscape) {
-
-	.footer {
-		display: flex;
-		flex-direction: row;
-		margin-top: auto;
-		padding: 2em 0;
-		font-size: .9rem;
-		justify-content: center;
-		align-items: center;
-		width: 100vw;
-	}
+.footer {
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+	padding: 2em 0;
+	font-size: .9rem;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
 }
 
